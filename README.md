@@ -17,7 +17,7 @@ This project is part of my robotics nano degree of[ Udacity](https://www.udacity
 
 
 ### Project tree
-<img src="./media/project_tree.PNG" width="70%" height="70%" /> 
+<img src="./media/project_tree.PNG" width="60%" height="60%" /> 
 
 <br>
   
