@@ -3,9 +3,7 @@ A robot follows commands on the keyboard to move into a new pose. During the mov
     
 This project is part of my robotics nano degree of[ Udacity](https://www.udacity.com/course/robotics-software-engineer--nd209). 
 
-### Example
-
-+ **A robot localize its pose**
+### Example: A robot localize its pose
 <img src="./media/localize_robot.gif" width="80%" height="80%" />
 
 <br>
