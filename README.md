@@ -1,5 +1,5 @@
 # Robotics : Where Am I!
-A robot follows commands of the keyboard to move into a new pose. During the movement, the robot estimates its pose using the [Monte Carlo Localization](http://wiki.ros.org/amcl) which uses a particle filter. The program runs in the robot simulation [Gazebo](http://gazebosim.org/) and using the robot operating system [ROS]( https://www.ros.org/).
+A robot follows commands on the keyboard to move into a new pose. During the movement, the robot estimates its pose using the [Monte Carlo Localization](http://wiki.ros.org/amcl) which uses a particle filter. The program runs in the robot simulation [Gazebo](http://gazebosim.org/) and using the robot operating system [ROS]( https://www.ros.org/).
     
 This project is part of my robotics nano degree of[ Udacity](https://www.udacity.com/course/robotics-software-engineer--nd209). 
 
@@ -43,7 +43,8 @@ $ chmod +x cd localize_robot.sh
 $ ./localize_robot.sh
 ```
 
-Now send movement commands to the robot via the keyboard
+Now use the keyboard to send movement commands to the robot to move the robot. 
+In the end, all of the particles are in a lump on the robot, so that the robot pose can be accurately estimated.
 ```sh
 	---------------------------
 	Moving around:
