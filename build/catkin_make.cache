@@ -1,2 +1,0 @@
-my_robot:odom_to_trajectory:teleop_twist_keyboard
--DCATKIN_DEVEL_PREFIX=/home/robond/projects/Robo-ND/RobotND-Where-Am-I/devel -DCMAKE_INSTALL_PREFIX=/home/robond/projects/Robo-ND/RobotND-Where-Am-I/install -G Unix Makefiles
