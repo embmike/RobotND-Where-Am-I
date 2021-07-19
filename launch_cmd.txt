@@ -1,0 +1,33 @@
+ Where am I?
+
+
+ Launch the robot with map and rviz
+
+$ cd /home/robond/ws_where_am_i/
+$ source devel/setup.bash
+$ roslaunch my_robot world.launch
+
+
+ Launch AMCL
+$ cd /home/robond/ws_where_am_i/
+$ source devel/setup.bash
+$ roslaunch my_robot amcl.launch
+
+
+ Lauch Teleop to move the robot
+
+$ cd /home/robond/ws_where_am_i/
+$ source devel/setup.bash
+$ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+
+	---------------------------
+	Moving around:
+	   u    i    o
+	   j    k    l
+	   m    ,    .
+
+	q/z : increase/decrease max speeds by 10%
+	w/x : increase/decrease only linear speed by 10%
+	e/c : increase/decrease only angular speed by 10%
+	anything else : stop
+
